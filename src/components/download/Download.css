@@ -16,6 +16,10 @@
     padding-bottom: 1rem;
   }
   
+  .download p{
+    font-size: 20px;
+  }
+
   .download h2::after {
     content: "";
     position: absolute;
@@ -36,7 +40,7 @@
   .download-icon {
     margin: 1rem 2rem;
     border: 2px solid #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     width: 12rem;
     display: flex;
     justify-content: center;
@@ -47,7 +51,7 @@
   }
 
   .download-icons p{
-    margin: 4px;
+    margin: 5px;
   }
 
 @media screen and (max-width:600px) {

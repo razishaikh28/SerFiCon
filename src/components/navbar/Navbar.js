@@ -23,10 +23,10 @@ const Navbar = () => {
       <menu>
         <ul className='nav-links' id={showMenu ? "nav-links-mobile" : "nav-links-mobile-hide"}>
           <li><a href='#'>Home</a></li>
-          <li><a href='features'>Features</a></li>
-          <li><a href='about_us'>About Us</a></li>
-          <li><a href='contact_us'>Contact Us</a></li>
-          <li><a href='download_app' className='btn btn-danger' id='download_button'>Download App</a></li>
+          <li><a href='#features'>Features</a></li>
+          <li><a href='#about'>About Us</a></li>
+          <li><a href='#contact-us'>Contact Us</a></li>
+          <li><a href='#download' className='btn btn-danger' id='download_button'>Download App</a></li>
         </ul>
       </menu>
       <div className="menu-icons" onClick={toggleMenu}>

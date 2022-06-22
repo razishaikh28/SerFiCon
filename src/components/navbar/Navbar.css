@@ -60,6 +60,10 @@
     color: orangered;
 }
 
+#download_button{
+    border-radius: 10px;
+}
+
 #download_button:hover{
     color: white;
 }

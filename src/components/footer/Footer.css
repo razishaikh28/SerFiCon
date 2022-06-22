@@ -1,0 +1,45 @@
+footer#footer {
+    background: #00204d;
+    color: #fff;
+    width: 100%;
+    padding: 5rem 0;
+  }
+  
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 3rem;
+    column-gap: 6rem;
+  }
+  
+
+  .footer h4 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+  }
+  
+  .footer-box .footer-links a {
+    font-size: 1.2rem;
+  }
+  
+  .footer-links {
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-links a{
+    color: white;
+    font-size: 1.2rem;
+    align-self: flex-start;
+    text-decoration: none;
+  }
+  
+  .footer-contact p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+  }

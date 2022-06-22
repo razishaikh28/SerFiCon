@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./Download.css";
-import { FaApple, FaWindows } from "react-icons/fa";
+import { FaApple} from "react-icons/fa";
 import { GrAndroid } from "react-icons/gr";
 import { IconContext } from "react-icons";
 import AOS from "aos";
@@ -16,7 +16,7 @@ const Download = () => {
     <section id="download">
       <div className="container download" data-aos="fade-up">
         <h2 id="title">SERFICON DOWNLOAD</h2>
-        <p className="u-text-small">
+        <p>
           Our apps would be available for download on all stores.
         </p>
         <IconContext.Provider value={{ size: "20" }}>
@@ -26,9 +26,6 @@ const Download = () => {
             </div>
             <div className="download-icon">
               <GrAndroid /> <p>Android</p>
-            </div>
-            <div className="download-icon">
-              <FaWindows /> <p>Windows</p>
             </div>
           </div>
         </IconContext.Provider>
